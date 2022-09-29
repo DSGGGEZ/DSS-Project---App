@@ -72,7 +72,7 @@ public class HardQuestion extends AppCompatActivity implements View.OnClickListe
 
         if (clickedButton.getId()==R.id.submitbtn){
             if(ansValue==QuestionAnswer.correctHardChoice[currentQuestionIndex]){
-                score+=1;
+                score++;
             }
             currentQuestionIndex++;
             loadNewQuestion();
