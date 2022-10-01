@@ -52,12 +52,12 @@
 
     <ImageButton
         android:id="@+id/hardbutton"
-        android:layout_width="265dp"
-        android:layout_height="73dp"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541"
         app:srcCompat="@drawable/buttonhard" />
@@ -67,10 +67,10 @@
         android:layout_width="167dp"
         android:layout_height="55dp"
         android:layout_marginBottom="160dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/buttonback" />
 </androidx.constraintlayout.widget.ConstraintLayout>

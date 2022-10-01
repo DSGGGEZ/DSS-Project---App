@@ -107,7 +107,7 @@
 
     <Button
         android:id="@+id/ansC"
-        android:layout_width="405dp"
+        android:layout_width="411dp"
         android:layout_height="52dp"
         android:layout_marginTop="132dp"
         android:backgroundTint="@color/white"
@@ -120,8 +120,8 @@
 
     <Button
         android:id="@+id/ansD"
-        android:layout_width="406dp"
-        android:layout_height="48dp"
+        android:layout_width="411dp"
+        android:layout_height="49dp"
         android:layout_marginTop="184dp"
         android:backgroundTint="@color/white"
         android:text="Button"

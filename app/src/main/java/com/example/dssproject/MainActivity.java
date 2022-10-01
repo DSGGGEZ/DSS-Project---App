@@ -32,13 +32,24 @@ public class MainActivity extends AppCompatActivity {
                 openAboutActivity();
             }
         });
+//        ImageButton btnSRKD = (ImageButton) findViewById(R.id.sarakadeebutton);
+//        btnSRKD.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                openSarakadee();
+//            }
+//        });
     }
-        public void openActivity2(){
-            Intent intent = new Intent(this,MainActivity2.class);
-            startActivity(intent);
-        }
+    public void openActivity2(){
+        Intent intent = new Intent(this,MainActivity2.class);
+        startActivity(intent);
+    }
     public void openAboutActivity(){
         Intent intent = new Intent(this,AboutActivity.class);
         startActivity(intent);
     }
+//    public void openSarakadee(){
+//        Intent intent = new Intent(this,Sarakadee.class);
+//        startActivity(intent);
+//    }
 }
