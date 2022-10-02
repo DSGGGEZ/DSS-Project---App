@@ -14,9 +14,6 @@
         android:theme="@style/Theme.DSSProject"
         tools:targetApi="31">
         <activity
-            android:name=".SumScore"
-            android:exported="false" />
-        <activity
             android:name=".HardQuestion"
             android:exported="false" />
         <activity
